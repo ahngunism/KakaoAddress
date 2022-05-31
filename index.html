@@ -34,7 +34,7 @@
                 roadAddress = data.roadAddressl;
                 jibunAddress = data.jibunAddress;
                 if (data.jibunAddress == '') {
-                    jibunAddress = autoJibunAddress;
+                    jibunAddress = data.autoJibunAddress;
                 }
                 if (data.userSelectedType === 'R') { // 사용자가 도로명 주소를 선택했을 경우
                     addr = data.roadAddress;
